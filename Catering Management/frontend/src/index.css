@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+ 
+
+/* layout */
+
+:root {
+
+  --primary: #1aac83;
+
+  --error: #e7195a;
+
+}
+
+body {
+
+  background: #f9f9f9;
+
+  margin: 0;
+
+  font-family: "Poppins";
+
+}
+
+header {
+
+  background: #fff;
+
+}
+
+header .container {
+
+  max-width: 1400px;
+
+  margin: 0 auto;
+
+  padding: 10px 20px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+}
+
+header a {
+
+  color: #333;
+
+  text-decoration: none;
+
+}
+
+.pages{
+
+  max-width: 1400px;
+
+  padding: 20px;
+
+  margin: 0 auto;
+
+}
+
+ 
+
+/* homepage */
+
+.home {
+
+  display: grid;
+
+  grid-template-columns: 3fr 1fr;
+
+  gap: 100px;
+
+}
+
+.menu-details {
+
+  background: #fff;
+
+  border-radius: 4px;
+
+  margin: 20px auto;
+
+  padding: 20px;
+
+  position: relative;
+
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+
+}
+
+.menu-details h4 {
+
+  margin: 0 0 10px 0;
+
+  font-size: 1.1em;
+
+  color: var(--primary);
+
+}
+
+.menu-details p {
+
+  margin: 0;
+
+  font-size: 1.1em;
+
+  color: #555;
+
+}
+
+.menu-details span {
+
+  position: absolute;
+
+  top: 20px;
+
+  right: 20px;
+
+  cursor: pointer;
+
+  background: #f1f1f1;
+
+  padding: 6px;
+
+  border-radius: 50%;
+
+  color: #333;
+
+}
+
+ 
+
+/* new menu form */
+
+label, input {
+
+  display: block;
+
+}
+
+input {
+
+  padding: 10px;
+
+  margin-top: 10px;
+
+  margin-bottom: 20px;
+
+  width: 100%;
+
+  border: 1px solid #ddd;
+
+  border-radius: 4px;
+
+  box-sizing: border-box;
+
+}
+
+form button {
+
+  background: var(--primary);
+
+  border: 0;
+
+  color: #fff;
+
+  padding: 10px;
+
+  font-family: "Poppins";
+
+  border-radius: 4px;
+
+  cursor: pointer;
+
+}
+
+div.error {
+
+  padding: 10px;
+
+  background: #ffefef;
+
+  border: 1px solid var(--error);
+
+  color: var(--error);
+
+  border-radius: 4px;
+
+  margin: 20px 0;
+
+}
+input.error {
+  border: 1px solid var(--error);
+}
+
+.Upd {
+  margin-left: 98%;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+label input + span {
+  margin-left: 5px; /* Add some margin to create space between label text and checkbox */
+}
+#checkbox{
+  margin-left: -150px;
+}
+select,
+input[type="text"],
+input[type="radio"]
+ {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  
+}
+
+.label2{
+  margin-left: 65%;
+}
+
+label {
+  display: flex; /* Use flex to align label and input horizontally */
+  align-items: center; /* Vertically align label and input */
+  justify-content: space-between; /* Create space between label and input */
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+#update-button {
+
+  background: #0056b3; /* Green background color for Update button */
+
+  color: #fff; /* White text color for Update button */
+
+  padding: 10px 20px; /* Padding for the Update button */
+
+  border: none; /* No border for the Update button */
+
+  border-radius: 40px; /* Rounded corners for the Update button */
+
+  cursor: pointer;
+
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+
+}
+
+ 
+
+#update-button:hover {
+
+  background: #0056b3; /* Darker green background color on hover */
+
+}
+.clientPost:hover {
+  background-color: #e0e0e0; /* Change the background color on hover */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+  /* Add any other hover styles as needed */
+}
+
+
+/* CSS */
+.button-88 {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(0deg, rgb(20, 40, 167) 0%, rgb(48, 37, 201) 100%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #2014a798;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-88:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #0056b3;
+}
+
+.button-88:active {
+  box-shadow: 0 0.3em 1em -0.5em #0056b3;
+}
+
+.search {
+ max-width: 20%;
+  /* margin-bottom: 16px; */
+  /* border: 1px solid #ccc; */
+  /* border-radius: 4px; */
+
+  box-sizing: unset;
+}
+/* .search:hover, .search:focus {
+  border: 1.5px solid #009688;
+  background-color: white;
+}
+.search::first-letter {
+  border: 1.5px solid #057dac;
+  background-color: white;
+} */
+.search-container {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #555; /* Adjust the color as needed */
+  cursor: pointer;
+}
